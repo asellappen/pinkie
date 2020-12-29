@@ -1,5 +1,20 @@
+# ----------------------------------------------------------------------------
+#
+# Package             : pinkie
+# Source Repo         : https://github.com/floatdrop/pinkie
+# Travis Job Link     : https://travis-ci.com/github/asellappen/pinkie/
+# Created travis.yml  : No
+# Maintainer          : Arumugam N S <asellappen@yahoo.com>/Priya Seth<sethp@us.ibm.com>
+#
+# Script License      : Apache License, Version 2 or later
+#
+# ----------------------------------------------------------------------------
+ 
 sudo: false
 language: node_js
+arch:
+  - amd64
+  - ppc64le
 node_js:
   - 'stable'
   - '4'
